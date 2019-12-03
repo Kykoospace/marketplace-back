@@ -1711,12 +1711,13 @@
         }
       },
       "links": {},
-      "address": "0xE8B442be4026ffEaD7Ff9d178C8A5941e193eDeA",
-      "transactionHash": "0x038b64cd25938436579649b5ed628c79ba1bf9f264718c6fa4a7a458a1d6e7e9"
+      "address": "0x5de254Cf4bC2B9eD889c27cd890bA75aE3035D94",
+      "transactionHash": "0xaa8d955603e2550d7ad520f74a51492f3d0676852bd16f9f1b6bfe632d01e336"
     }
   },
   "schemaVersion": "3.0.19",
-  "updatedAt": "2019-12-03T16:02:03.356Z",
+  "updatedAt": "2019-12-03T16:17:19.043Z",
+  "networkType": "ethereum",
   "devdoc": {
     "details": "The Ownable contract has an owner address, and provides basic authorization control functions, this simplifies the implementation of \"user permissions\".",
     "methods": {

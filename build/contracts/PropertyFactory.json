@@ -2600,15 +2600,48 @@
           "name": "newProperty",
           "type": "event",
           "signature": "0x30bde9e158c26fc7c76939b28594cbd51adfdc5d4433e8278f848ceab3f33d58"
+        },
+        "0x4218eda808555e98fa2893776fcfed449d54d610e3c31cbdd010cd88652223e3": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "propertyId",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "price",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "addressProperty",
+              "type": "string"
+            }
+          ],
+          "name": "newProperty",
+          "type": "event",
+          "signature": "0x4218eda808555e98fa2893776fcfed449d54d610e3c31cbdd010cd88652223e3"
         }
       },
       "links": {},
-      "address": "0x37c0353A53a31FCBedB399314973B4b2451Fe4ec",
-      "transactionHash": "0x803ce2d6842a30aa39f37bca67f022ef1ff597729c3bf8b230293af187d16532"
+      "address": "0xFEf851C22b4CBBAE8E0D1561f683660e8C623e31",
+      "transactionHash": "0x5cc87777791279d3ab8e09bd224a7ae05fd2f989f828afde6719dbf9d51768eb"
     }
   },
   "schemaVersion": "3.0.19",
-  "updatedAt": "2019-12-03T16:02:03.358Z",
+  "updatedAt": "2019-12-03T16:16:31.485Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {
       "transferOwnership(address)": {

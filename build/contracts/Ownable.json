@@ -233,7 +233,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 265,
+                        "referencedDeclaration": 324,
                         "src": "518:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -434,7 +434,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 265,
+                            "referencedDeclaration": 324,
                             "src": "708:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -488,10 +488,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        268,
-                        269
+                        327,
+                        328
                       ],
-                      "referencedDeclaration": 268,
+                      "referencedDeclaration": 327,
                       "src": "700:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -646,10 +646,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        268,
-                        269
+                        327,
+                        328
                       ],
-                      "referencedDeclaration": 268,
+                      "referencedDeclaration": 327,
                       "src": "980:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1042,7 +1042,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 265,
+                        "referencedDeclaration": 324,
                         "src": "518:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -1243,7 +1243,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 265,
+                            "referencedDeclaration": 324,
                             "src": "708:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -1297,10 +1297,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        268,
-                        269
+                        327,
+                        328
                       ],
-                      "referencedDeclaration": 268,
+                      "referencedDeclaration": 327,
                       "src": "700:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1455,10 +1455,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        268,
-                        269
+                        327,
+                        328
                       ],
-                      "referencedDeclaration": 268,
+                      "referencedDeclaration": 327,
                       "src": "980:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1716,8 +1716,7 @@
     }
   },
   "schemaVersion": "3.0.19",
-  "updatedAt": "2019-12-03T14:11:47.411Z",
-  "networkType": "ethereum",
+  "updatedAt": "2019-12-03T16:02:03.356Z",
   "devdoc": {
     "details": "The Ownable contract has an owner address, and provides basic authorization control functions, this simplifies the implementation of \"user permissions\".",
     "methods": {

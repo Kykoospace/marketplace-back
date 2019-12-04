@@ -17,3 +17,7 @@ Depuis le terminal :
 ```bash
 truffle migrate --network kovan
 ```
+ou
+```bash
+truffle migrate --network kovan --reset
+```

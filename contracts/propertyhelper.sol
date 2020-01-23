@@ -1,4 +1,5 @@
-pragma solidity ^0.5.11;
+pragma solidity >=0.4.25 < 0.6.0;
+pragma experimental ABIEncoderV2;
 
 import "./propertyfactory.sol";
 
@@ -23,4 +24,10 @@ function getPropertiesByOwner(address _owner) public view returns(uint[] memory)
     }
     return result;
   }
+
+  function getAllProperties() public view returns(Property[] memory) {
+      return properties;
+  }
 }
+
+

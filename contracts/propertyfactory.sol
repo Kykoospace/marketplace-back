@@ -18,7 +18,7 @@ contract PropertyFactory is Ownable {
     mapping (address => uint) ownerPropertyCount;
 
     // Création d'un bien
-    function _createProperty(string memory _name, uint _price, string memory _addressProperty) public {
+    function createProperty(string memory _name, uint _price, string memory _addressProperty) public {
         uint id = properties.push(Property(_name, _price, _addressProperty)) - 1;
         propertyToOwner[id] = msg.sender;
         ownerPropertyCount[msg.sender]++;
